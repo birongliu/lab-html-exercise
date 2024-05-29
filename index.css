@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 40px;
+    margin-right: 0.5rem;
+}
+
+
+.header-container {
+    display: flex;
+}
+
+
+.logo {
+    width: 4.0rem;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.search-input {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    width: 60vw;
+}
+
+.search-manifying {
+    padding: 0.5rem;
+    width: 2rem;
+}
+
+.login-button {
+    margin: 1rem;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+}
+.join-button {
+    margin: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-style: solid;
+    width: 5rem;
+    padding: 0.6rem;
+    background-color: transparent;
+}
+
+.section-1 {
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.slogan {
+    word-break: break-word;
+    font-weight: bold;
+}
+.slogan-2 {
+    font-weight: bold;
+    background-color: rgba(255, 204, 53, 4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-plan {
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background-color: #FB3B49;
+    padding: 1rem;
+    width: 10rem;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+.card-container {
+    display: grid;
+    grid-auto-rows: auto;
+}
+
+.slogan-3 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-wrap: wrap;
+}
+
+.section-2 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hexagon-image {
+    width: 15rem;
+}
+.join-button:hover {
+    cursor: pointer;
+}
+
+.btn-join:hover {
+    cursor: pointer;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+.search-button:hover {
+    cursor: pointer;
+}
+
+.btn-plan:hover {
+    cursor: pointer;
+}
+
+.btn-join {
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.search-button {
+    color: white;
+    border: none;
+    width: 5rem;
+    background-color: #fb3e44;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+[class^="card-"] {
+    padding: 1rem; 
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .search-input {
+        width: 19rem;
+    }
+    .search-form-and-button {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-form-and-button {
+    display: flex;
+}
+
+.card-container h1 {
+    color: #ED1C24;
+}
+
+.card-container img {
+    width:  5rem;
+}
+.section-3 {
+    height: 600px;
+    text-align: center;
+}
+.org-btn {
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 10rem;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
+
+.search-form {
+    display: flex;
+    margin: 1rem;
+    background-color: rgba(0,0,0,.05)
+}
+
+
